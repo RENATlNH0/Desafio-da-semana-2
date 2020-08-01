@@ -1,0 +1,87 @@
+html, body{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.menu{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    margin: 0;
+    padding: 10px 0;
+    background-color: #4CA146;
+    border-bottom: 2px black solid;
+}
+li{
+    font: normal 15pt Bebas Neue;
+    padding: 0px 20px 0px 20px;
+}
+li:hover{
+    border-bottom: 2px black solid;
+}
+a{
+    color: white;
+    text-decoration:none;
+}
+.centro{
+    display: flex;
+    justify-content: center;
+}
+.capa{
+    background-color: #76BE6E;
+    flex-direction: column;
+    text-align: center;
+    height: 100%;
+    margin: 0;
+}
+.fonte{
+    font: normal 25pt Bebas Neue;
+}
+#img_capa{
+    border: 2.5px black solid;
+    border-radius: 10px;
+    width:20vh;
+}
+.sub_titulo_capa{
+    border-top: 2px black solid;
+    padding-top: 10px;
+    margin-left: 40%;
+    margin-right: 40%;
+}
+.margin20{
+    box-shadow: 5px 8px 7.5px black;
+    margin-left: 20%;    
+    margin-right: 20%;
+    border-radius: 20px;
+}
+.titulo{
+    text-align: center;
+    background-color: #4CA146;
+    border-bottom: 2px black solid;
+    border-radius: 20px;
+}
+.sub_titulo_entenda u{
+    font: normal 20pt Bebas Neue;
+    text-decoration-color: green;
+    padding-left: 10px;
+}
+.paragrafo_entenda{
+    font: normal 15pt Bebas Neue;
+    text-align: justify;
+    padding: 0 10px;
+    text-decoration: none;
+    color: black;
+}
+.fim{
+    margin-bottom: 20px;
+}
+.video{
+    padding: 0 10px;
+    width: 30%;
+}
+@media (max-width: 604px){
+    body{
+        width: 100vh;
+        box-sizing: border-box;
+    }
+}
